@@ -1,0 +1,105 @@
+libnumber-format-perl (1.75-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Mon, 28 Dec 2020 14:52:23 +0100
+
+libnumber-format-perl (1.75-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ Florian Schlichting ]
+  * Add debian/upstream/metadata
+  * Import upstream version 1.75
+  * Bump dh compat to level 9
+  * Declare compliance with Debian Policy 3.9.6
+  * Mark package autopkgtest-able
+
+ -- Florian Schlichting <fsfs@debian.org>  Fri, 13 Nov 2015 23:06:05 +0100
+
+libnumber-format-perl (1.73-2) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Xavier Guimard ]
+  * Update source format to 3.0 (quilt)
+  * Bump debian/copyright format to 1.0
+  * Bump Standards-Version to 3.9.4
+  * Bump debhelper compatibility to 8
+
+ -- Xavier Guimard <x.guimard@free.fr>  Fri, 01 Feb 2013 06:22:00 +0100
+
+libnumber-format-perl (1.73-1) unstable; urgency=low
+
+  [ Jonathan Yu ]
+  * New upstream release
+  * Standards-Version 3.8.3 (no changes)
+  * Use new short rules format
+  * Add myself to Uploaders and Copyright
+
+  [ Nathan Handler ]
+  * debian/watch: Update to ignore development releases.
+
+  [ Ryan Niebur ]
+  * Update ryan52's email address
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Sat, 26 Sep 2009 08:45:20 -0400
+
+libnumber-format-perl (1.72a-1) unstable; urgency=low
+
+  [ Ryan Niebur ]
+  * New upstream release
+
+  [ gregor herrmann ]
+  * debian/control: add locales-all to Build-Depends-Indep in order to run the
+    locale tests.
+
+ -- Ryan Niebur <ryanryan52@gmail.com>  Thu, 07 May 2009 23:25:04 -0700
+
+libnumber-format-perl (1.70-1) unstable; urgency=low
+
+  * Take over for the Debian Perl Group on maintainer's request
+    (http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=526405#12)
+  * debian/control: Added: Vcs-Svn field (source stanza); Vcs-Browser
+    field (source stanza); Homepage field (source stanza). Changed:
+    Maintainer set to Debian Perl Group <pkg-perl-
+    maintainers@lists.alioth.debian.org> (was: Ivan Kohler <ivan-
+    debian@420.am>); Ivan Kohler <ivan-debian@420.am> moved to
+    Uploaders.
+  * Add debian/watch.
+  * debhelper 7
+  * Add myself to Uploaders
+  * Debian Policy 3.8.1
+  * New upstream release (Closes: #526405)
+  * machine readable copyright format
+  * remove Makefile.old file
+
+ -- Ryan Niebur <ryanryan52@gmail.com>  Thu, 30 Apr 2009 18:05:52 -0700
+
+libnumber-format-perl (1.52-1) unstable; urgency=low
+
+  * New maintainer, thanks Ola!
+  * New upstream release (closes: Bug#406260)
+  * Better description, patch from Russ Allbery <rra@stanford.edu>
+    (closes: Bug#308427)
+
+ -- Ivan Kohler <ivan-debian@420.am>  Thu, 26 Apr 2007 12:00:46 -0700
+
+libnumber-format-perl (1.45-1) unstable; urgency=low
+
+  * Initial release, closes: #295062.
+
+ -- Ola Lundqvist <opal@debian.org>  Sat, 12 Feb 2005 22:08:53 +0100
+

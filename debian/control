@@ -1,0 +1,26 @@
+Source: libnumber-format-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ivan Kohler <ivan-debian@420.am>,
+           Ryan Niebur <ryan@debian.org>,
+           Jonathan Yu <jawnsy@cpan.org>,
+           Xavier Guimard <x.guimard@free.fr>
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: locales-all,
+                     perl
+Standards-Version: 3.9.6
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libnumber-format-perl.git
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libnumber-format-perl.git
+Homepage: https://metacpan.org/release/Number-Format
+Testsuite: autopkgtest-pkg-perl
+
+Package: libnumber-format-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends}
+Description: Perl module to format numbers for display
+ Number::Format is a Perl module that formats numbers according to standard
+ conventions, such as adding thousands separators and decimal points
+ appropriate to the current locale. It can also convert strings into numbers,
+ format currency values, and convert numbers to KB, MB, and GB values.
