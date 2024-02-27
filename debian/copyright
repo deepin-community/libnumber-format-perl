@@ -1,4 +1,4 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Number-Format
 Source: https://metacpan.org/release/Number-Format
 Upstream-Contact: William R. Ward <wrw@cpan.org>
@@ -13,7 +13,7 @@ Copyright: 2005, Ola Lundqvist <opal@debian.org>
  2009, Jonathan Yu <jawnsy@cpan.org>
  2009, Ryan Niebur <ryan@debian.org>
  2011, Ansgar Burchardt <ansgar@debian.org>
- 2013, Xavier Guimard <x.guimard@free.fr>
+ 2013, Xavier Guimard <yadd@debian.org>
 License: Artistic or GPL-1+
 
 License: Artistic
