@@ -1,2 +1,2 @@
-version=3
-https://metacpan.org/release/Number-Format  .+/Number-Format-v?(\d[\d.-a-z]+)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip)$
+version=4
+https://metacpan.org/release/Number-Format  .+/Number-Format-v?@ANY_VERSION@@ARCHIVE_EXT@$

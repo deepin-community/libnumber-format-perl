@@ -1,3 +1,50 @@
+libnumber-format-perl (1.76-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 1.76.
+    Closes: #1040376
+  * Declare compliance with Debian Policy 4.6.2.
+  * Set Rules-Requires-Root: no.
+  * Annotate test-only build dependencies with <!nocheck>.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 05 Jul 2023 21:36:41 +0200
+
+libnumber-format-perl (1.75-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + libnumber-format-perl: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 13 Oct 2022 22:15:24 +0100
+
+libnumber-format-perl (1.75-2) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * Remove Jonathan Yu from Uploaders. Thanks for your work!
+  * Remove Ryan Niebur from Uploaders. Thanks for your work!
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ Xavier Guimard ]
+  * Email change: Xavier Guimard -> yadd@debian.org
+
+  [ gregor herrmann ]
+  * debian/watch: use uscan version 4.
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Repository-Browse.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 16 Jun 2022 23:17:07 +0100
+
 libnumber-format-perl (1.75-1.1) unstable; urgency=medium
 
   * Non maintainer upload by the Reproducible Builds team.
@@ -102,4 +149,3 @@ libnumber-format-perl (1.45-1) unstable; urgency=low
   * Initial release, closes: #295062.
 
  -- Ola Lundqvist <opal@debian.org>  Sat, 12 Feb 2005 22:08:53 +0100
-

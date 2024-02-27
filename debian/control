@@ -1,22 +1,22 @@
 Source: libnumber-format-perl
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 Uploaders: Ivan Kohler <ivan-debian@420.am>,
-           Ryan Niebur <ryan@debian.org>,
-           Jonathan Yu <jawnsy@cpan.org>,
-           Xavier Guimard <x.guimard@free.fr>
+           Xavier Guimard <yadd@debian.org>
 Section: perl
-Priority: optional
-Build-Depends: debhelper (>= 9)
-Build-Depends-Indep: locales-all,
-                     perl
-Standards-Version: 3.9.6
-Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libnumber-format-perl.git
-Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libnumber-format-perl.git
-Homepage: https://metacpan.org/release/Number-Format
 Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: locales-all <!nocheck>,
+                     perl
+Standards-Version: 4.6.2
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libnumber-format-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libnumber-format-perl.git
+Homepage: https://metacpan.org/release/Number-Format
+Rules-Requires-Root: no
 
 Package: libnumber-format-perl
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends},
          ${perl:Depends}
 Description: Perl module to format numbers for display
